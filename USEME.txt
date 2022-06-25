@@ -1,0 +1,29 @@
+Structure of our GUI:
+• In Layer operations and model panel:
+• Top Most Visible Layer(shows the top most visible layer's name) 
+• first jcombobox(contains name of remove layer): shows all possible layer operations and image operations (filter, transfroming)
+• second jcombobox(contains name of none): shows the current list of created layers' name. 
+• click to create layer: button that asks for layer name and creates layer. When there should be space in layer name, the space should be replaced with "_".   (ex input: first_layer)
+• apply: a button that will apply operation that is selected from two combo boxes. 
+• Showing an top most layer image:
+• shows the top most visible layer's image in scrollable image label. 
+• File buttons:
+• Load File: asks to user to select a file to load for image. 
+• default: a label of loaded file path
+• Load checker board: loads a checker board image with given inputs to create checker board image. 
+• click to enter inputs to create board: asks the user to enter inputs(in order of tilesize, width, length, 2 rgb values, all each with space) for creating checker board image. (ex of inputs: 10 50 50 255 255 255 0 0 0)
+• default: a label of the inputs for creating checker board image 
+• Save File: a button to save/export the top most visible layer image with provided file name. 
+• Click to enter FileName: a button that asks the user to provide a image file name to save the file (including path if neccessary) 
+               (ex of inputs: res/newimage1.png)
+• default: a label of the file name to be saved. 
+• save all: a button that saves all layers' image with provided image file names. 
+• click to enter filenames: a button that asks the user to enter script txt file name and image file names, all in order with space to each other. (ex of input: res/input.txt res/newimage1.png res/newimage2.jpeg)
+• default: a label of the script txt file and image file names that user entered. 
+To apply current layer opeartion:
+• choose current from first jcombo box, and select a layer name from jcombo box that contains list of layers' name, and then click apply button. 
+• This applies to same for remove layer, visible, invisible operation.
+For image operations:
+• For image operations, we have to know that it will only operate to top most visible layer, so we don't need to select a layer name from second combo box. Thus, we select image operation from first combo box and hit apply button.
+
+

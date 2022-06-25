@@ -1,0 +1,16 @@
+create layer first
+create layer second
+create layer third
+current first
+invisible first
+load res/Boston1.png
+blur
+visible first
+load res/Boston1.jpeg
+sharpen
+current third
+load res/Boston2.png
+grayscale
+sepia
+save_all res/input.txt res/newBoston1.png res/newBoston2.png res/newBoston3.jpeg
+quit

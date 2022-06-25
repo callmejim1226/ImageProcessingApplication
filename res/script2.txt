@@ -1,0 +1,13 @@
+create layer first
+create layer second
+load res/Boston1.png
+blur 
+blur
+sepia
+create layer third
+current second
+load res/Boston.jpeg
+sepia
+save res/newBoston2.png
+remove layer third
+quit
