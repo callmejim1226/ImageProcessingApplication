@@ -2,8 +2,11 @@
 Group project for Object-Oriented Design course
 
 # Screenshots & Demo video
+
+## Application home screen:
 ![picphotoshop](https://github.com/callmejim1226/ImageProcessingApplication/assets/91857946/9ac96f92-9c26-46b2-aa00-030599a78477)
 
+## Demo:
 https://github.com/callmejim1226/ImageProcessingApplication/assets/91857946/655b6c6c-aac4-43ae-b85a-7a09d12ec198
 
 # Assignment 5: Image Processing (Part 1)
